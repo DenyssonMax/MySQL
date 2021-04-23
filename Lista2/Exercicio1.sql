@@ -51,7 +51,6 @@ insert into tb_classe (valor, jogo) values
     where nome like '%C%';
     
     select * from tb_personagem inner join tb_classe on tb_classe.id = tb_personagem.categoria_id;
-    
     select * from tb_personagem inner join tb_classe on tb_classe.id = tb_personagem.categoria_id where tb_classe.jogo = 'mortal kombat';
     
     
